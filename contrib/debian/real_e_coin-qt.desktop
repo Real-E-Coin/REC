@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Real_E_Coin
+Comment=Real_E_Coin P2P Cryptocurrency
+Comment[fr]=Real_E_Coin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Real_E_Coin, eşten eşe kriptografik sanal para birimi
+Exec=real_e_coin-qt %u
+Terminal=false
+Type=Application
+Icon=real_e_coin128
+MimeType=x-scheme-handler/real_e_coin;
+Categories=Office;Finance;
+StartupWMClass=Real_E_Coin-qt

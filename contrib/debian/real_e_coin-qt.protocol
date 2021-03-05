@@ -1,0 +1,11 @@
+[Protocol]
+exec=real_e_coin-qt '%u'
+protocol=real_e_coin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Real_E_Coin
+Comment=Real_E_Coin QT main network
+GenericName=Real_E_Coin Digital Currency QT client main network
+Exec=real_e_coin-core.qt %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/real_e_coin.png
+MimeType=x-scheme-handler/real_e_coin;
+Categories=X-Office;X-Finance;
+Keywords=internet;real_e_coin;zrec;rec;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0

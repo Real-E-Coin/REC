@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Real_E_Coin Daemon SNAP
+Comment=testnet
+GenericName=Real_E_Coin Digital Currency Daemon Client testnet network
+Exec=real_e_coin-core.daemon-testnet %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/real_e_coin_testnet.png
+MimeType=x-scheme-handler/rec;
+Categories=X-Office;X-Finance;
+Keywords=internet;real_e_coin;zrec;core;wallet;daemon;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0

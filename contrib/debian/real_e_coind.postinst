@@ -1,0 +1,28 @@
+
+#!/bin/sh
+
+# setup real_e_coin account, homedir etc
+
+set -e
+
+RECUSER="real_e_coin"
+RECHOME="/var/lib/real_e_coin"
+
+if [ "$1" = "configure" ]; then
+	# Add real_e_coin user/group - this will gracefully abort if the user already exists.
+	# A homedir is never created.
+	set +e
+	adduser --system --home "${RECHOME}" --no-create-home --group "${RECUSER}" 2>/dev/null
+	set -e
+
+	# If the homedir does not already exist, create it with proper
+	# ownership and permissions.
+	if [ ! -d "${RECHOME}" ]; then
+		mkdir -m 0750 -p "${RECHOME}"
+		chown "${RECUSER}:${RECUSER}" "${RECHOME}"
+	fi
+fi
+
+#DEBHELPER#
+
+exit 0

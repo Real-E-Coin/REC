@@ -1,0 +1,3 @@
+usr/local/bin/real_e_coind usr/bin
+usr/local/bin/real_e_coin-cli usr/bin
+debian/examples/real_e_coin.conf etc/real_e_coin

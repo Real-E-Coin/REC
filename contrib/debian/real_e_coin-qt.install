@@ -1,0 +1,6 @@
+usr/local/bin/real_e_coin-qt usr/bin
+share/pixmaps/real_e_coin32.xpm usr/share/pixmaps
+share/pixmaps/real_e_coin16.xpm usr/share/pixmaps
+share/pixmaps/real_e_coin128.png usr/share/pixmaps
+debian/real_e_coin-qt.desktop usr/share/applications
+debian/real_e_coin-qt.protocol usr/share/kde4/services/

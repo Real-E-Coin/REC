@@ -1,0 +1,33 @@
+# /etc/conf.d/real_e_coind: config file for /etc/init.d/real_e_coind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/real_e_coin/real_e_coin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/real_e_coind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/real_e_coind.pid"
+
+# Where to write real_e_coind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/real_e_coind"
+
+# User and group to own real_e_coind process
+#BITCOIND_USER="real_e_coin"
+#BITCOIND_GROUP="real_e_coin"
+
+# Path to real_e_coind executable
+#BITCOIND_BIN="/usr/bin/real_e_coind"
+
+# Nice value to run real_e_coind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# setup real_e_coin account, homedir etc
+
+set -e
+
+RECUSER="real_e_coin"
+RECHOME="/var/lib/real_e_coin"
+
+if [ "$1" = "purge" ]; then
+
+	# The real_e_coin user is left in place for now - This is to ensure that a new user
+	# will not inherit the users UID/GID and inadvertently gain access to wallets etc
+
+	# The homedir is also left intact to ensure that we don't accidentally delete a
+	# wallet or something equally important
+
+	echo
+	echo "#"
+	echo "#  The real_e_coin user (${RECUSER}) and data dir (${RECHOME})"
+	echo "#  were left intact."
+	echo "#"
+	echo "#  Make sure to check \"${RECHOME}\" for wallets and other"
+	echo "#  important bits."
+	echo "#"
+	echo "#  After backing up all vital data, cleanup can be completed"
+	echo "#  by running: sudo userdel -r ${RECUSER}"
+	echo "#"
+	echo
+
+fi
+
+#DEBHELPER#
+
+exit 0

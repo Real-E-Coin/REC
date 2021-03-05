@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Real_E_Coin
+Comment=Real_E_Coin QT test network
+GenericName=Real_E_Coin Digital Currency QT client testnet network
+Exec=real_e_coin-core.qt-testnet %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/real_e_coin_testnet.png
+MimeType=x-scheme-handler/rec;
+Categories=X-Office;X-Finance;
+Keywords=internet;real_e_coin;zrec;tbc;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
