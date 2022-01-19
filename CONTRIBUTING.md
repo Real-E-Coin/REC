@@ -84,7 +84,7 @@ Examples:
     Trivial: Fix typo in init.cpp
 
 Note that translations should not be submitted as pull requests, please see
-[Translation Process](https://github.com/real_e_coin-project/real_e_coin/blob/master/doc/translation_process.md)
+[Translation Process](https://github.com/Real-E-Coin/REC/blob/master/doc/translation_process.md)
 for more information on helping with translations.
 
 If a pull request is not to be considered for merging (yet), please

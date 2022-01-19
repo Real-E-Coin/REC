@@ -105,7 +105,7 @@ For example:
   ./github-merge.py 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-Real_E_Coin-Project/Real_E_Coin repository.
+Real-E-Coin/REC repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -125,7 +125,7 @@ Setup
 ---------
 Configuring the github-merge tool for the Real_E_Coin repository is done in the following way:
 
-    git config githubmerge.repository Real_E_Coin-Project/Real_E_Coin
+    git config githubmerge.repository Real-E-Coin/REC
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid
 

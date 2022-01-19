@@ -86,9 +86,9 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-const char * const Real_E_Coin_CONF_FILENAME = "real_e_coin.conf";
-const char * const Real_E_Coin_PID_FILENAME = "real_e_coin.pid";
-const char * const Real_E_Coin_MASTERNODE_CONF_FILENAME = "masternode.conf";
+const char * const REAL_E_COIN_CONF_FILENAME = "real_e_coin.conf";
+const char * const REAL_E_COIN_PID_FILENAME = "real_e_coin.pid";
+const char * const REAL_E_COIN_MASTERNODE_CONF_FILENAME = "masternode.conf";
 
 
 // Real_E_Coin only features
@@ -453,13 +453,13 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-conf", Real_E_Coin_CONF_FILENAME));
+    fs::path pathConfigFile(GetArg("-conf", REAL_E_COIN_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile, false);
 }
 
 fs::path GetMasternodeConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-mnconf", Real_E_Coin_MASTERNODE_CONF_FILENAME));
+    fs::path pathConfigFile(GetArg("-mnconf", REAL_E_COIN_MASTERNODE_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile);
 }
 
@@ -502,7 +502,7 @@ fs::path AbsPathForConfigVal(const fs::path& path, bool net_specific)
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(GetArg("-pid", Real_E_Coin_PID_FILENAME));
+    fs::path pathPidFile(GetArg("-pid", REAL_E_COIN_PID_FILENAME));
     return AbsPathForConfigVal(pathPidFile);
 }
 

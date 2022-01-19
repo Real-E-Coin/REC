@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_HDCHAIN_H
-#define Real_E_Coin_HDCHAIN_H
+#ifndef REAL_E_COIN_HDCHAIN_H
+#define REAL_E_COIN_HDCHAIN_H
 
 #include "key.h"
 
@@ -73,4 +73,4 @@ public:
     }
 };
 
-#endif // Real_E_Coin_HDCHAIN_H
+#endif // REAL_E_COIN_HDCHAIN_H

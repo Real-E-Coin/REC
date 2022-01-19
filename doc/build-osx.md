@@ -43,7 +43,7 @@ Build Real_E_Coin
 
 1. Clone the Real_E_Coin source code:
 
-        git clone https://github.com/real_e_coin-project/real_e_coin
+        git clone https://github.com/Real-E-Coin/REC
         cd real_e_coin
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).

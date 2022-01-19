@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/real_e_coin-project/real_e_coin.git"
+- "url": "https://github.com/Real-E-Coin/REC.git"
   "dir": "real_e_coin"
 files:
 - "MacOSX10.11.sdk.tar.gz"
@@ -87,7 +87,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd real_e_coin
+  cd REC
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs

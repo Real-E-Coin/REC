@@ -73,7 +73,7 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/real_e_coin-project/real_e_coin.git
+    git clone https://github.com/Real-E-Coin/REC.git
     cd real_e_coin
 
 ## Building for 64-bit Windows
@@ -101,6 +101,20 @@ Build using:
     ./autogen.sh # not required when building from tarball
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
     make
+    ./util/fetch-params.sh ./params # copy the params files to %APPDATA%/Real_E_CoinParams
+
+or in one command on Ubuntu with log output: 
+
+    cd depends && make HOST=x86_64-w64-mingw32 && cd .. && ./autogen.sh && CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust && make
+
+or even without tests for quicker builds: 
+
+    cd depends && make HOST=x86_64-w64-mingw32 && cd .. && ./autogen.sh && CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests && make
+
+Bundle together using:
+
+    rsync -r -f '+ *.exe' -f '+ **/' -f '- *' --prune-empty-dirs ./src/ ./build/
+    echo 'PUSHD "%~dp0" && XCOPY "params\" "%APPDATA%\Real_E_CoinParams\" /E /H /C /R /Q /Y' > $PWD/build/install-params.bat && $PWD/util/fetch-params.sh $PWD/build/params
 
 ## Depends system
 

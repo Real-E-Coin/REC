@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_KEY_H
-#define Real_E_Coin_KEY_H
+#ifndef REAL_E_COIN_KEY_H
+#define REAL_E_COIN_KEY_H
 
 #include "allocators.h"
 #include "serialize.h"
@@ -182,4 +182,4 @@ void ECC_Stop(void);
 /** Check that required EC support is available at runtime. */
 bool ECC_InitSanityCheck(void);
 
-#endif // Real_E_Coin_KEY_H
+#endif // REAL_E_COIN_KEY_H

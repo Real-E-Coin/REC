@@ -24,18 +24,18 @@ URL:		https://real_e_coin.org/
 Source0:	https://real_e_coin.org/bin/real_e_coin-core-%{version}/real_e_coin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/contrib/debian/examples/real_e_coin.conf
+Source10:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/contrib/debian/examples/real_e_coin.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/doc/man/real_e_coind.1
-Source21:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/doc/man/real_e_coin-cli.1
-Source22:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/doc/man/real_e_coin-qt.1
+Source20:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/doc/man/real_e_coind.1
+Source21:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/doc/man/real_e_coin-cli.1
+Source22:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/doc/man/real_e_coin-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/contrib/rpm/real_e_coin.te
+Source30:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/contrib/rpm/real_e_coin.te
 # Source31 - what about real_e_coin-tx and bench_real_e_coin ???
-Source31:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/contrib/rpm/real_e_coin.fc
-Source32:	https://raw.githubusercontent.com/real_e_coin-project/real_e_coin/v%{version}/contrib/rpm/real_e_coin.if
+Source31:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/contrib/rpm/real_e_coin.fc
+Source32:	https://raw.githubusercontent.com/Real-E-Coin/REC/v%{version}/contrib/rpm/real_e_coin.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 

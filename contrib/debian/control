@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.real_e_coin.org
-Vcs-Git: git://github.com/Real_E_Coin-Project/Real_E_Coin.git
-Vcs-Browser: http://github.com/Real_E_Coin-Project/Real_E_Coin
+Vcs-Git: git://github.com/Real-E-Coin/REC.git
+Vcs-Browser: http://github.com/Real-E-Coin/REC
 
 Package: real_e_coind
 Architecture: any

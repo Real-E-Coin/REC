@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_PUBKEY_H
-#define Real_E_Coin_PUBKEY_H
+#ifndef REAL_E_COIN_PUBKEY_H
+#define REAL_E_COIN_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -265,4 +265,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // Real_E_Coin_PUBKEY_H
+#endif // REAL_E_COIN_PUBKEY_H

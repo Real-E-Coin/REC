@@ -1,8 +1,8 @@
-Real_E_Coin version *3.3.0* is now available from:  <https://github.com/real_e_coin-project/real_e_coin/releases>
+Real_E_Coin version *3.3.0* is now available from:  <https://github.com/Real-E-Coin/REC/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/real_e_coin-project/real_e_coin/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Real-E-Coin/REC/issues>
 
 
 Mandatory Update
@@ -65,7 +65,7 @@ Notice text has been added to the privacy tab indicating that zREC minting is di
 
 The `masternode` and `mnbudget` RPC commands, which were marked as deprecated in Real_E_Coin v2.3.1 (September 19, 2017), have now been completely removed from Real_E_Coin.
 
-Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/Real_E_Coin-Project/Real_E_Coin/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
+Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/Real-E-Coin/REC/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
 
 ### New `getblockindexstats` Command
 
@@ -214,4 +214,4 @@ Thanks to everyone who directly contributed to this release:
  - random-zebra
  - warrows
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/real_e_coin-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Real-E-Coin-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

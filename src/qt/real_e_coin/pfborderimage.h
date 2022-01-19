@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_PFBorderImage_H
-#define Real_E_Coin_PFBorderImage_H
+#ifndef REAL_E_COIN_PFBorderImage_H
+#define REAL_E_COIN_PFBorderImage_H
 
 #include <QPainter>
 #include <QPixmap>
@@ -53,4 +53,4 @@ protected:
 
 };
 
-#endif //Real_E_Coin_PFBorderImage_H
+#endif //REAL_E_COIN_PFBorderImage_H

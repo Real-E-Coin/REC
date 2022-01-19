@@ -33,7 +33,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/real_e_coin-project/real_e_coin.git"
+- "url": "https://github.com/Real-E-Coin/REC.git"
   "dir": "real_e_coin"
 files: []
 script: |
@@ -123,7 +123,7 @@ script: |
   chmod +x ${WRAP_DIR}/${prog}
   done
 
-  cd real_e_coin
+  cd REC
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

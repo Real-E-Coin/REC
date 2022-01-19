@@ -26,7 +26,7 @@ Drag Real_E_Coin-Qt to your applications folder, and then run Real_E_Coin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Real_E_Coin Wiki](https://github.com/Real_E_Coin-Project/Real_E_Coin/wiki)
+* See the documentation at the [Real_E_Coin Wiki](https://github.com/Real-E-Coin/REC/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Real_E_Coin Forum](http://forum.real_e_coin.org/).
 * Join our Discord server [Discord Server](https://discord.real_e_coin.org)

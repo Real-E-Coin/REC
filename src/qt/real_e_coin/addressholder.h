@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_ADDRESSHOLDER_H
-#define Real_E_Coin_ADDRESSHOLDER_H
+#ifndef REAL_E_COIN_ADDRESSHOLDER_H
+#define REAL_E_COIN_ADDRESSHOLDER_H
 
 #include <QWidget>
 #include <QColor>
@@ -39,4 +39,4 @@ public:
 };
 
 
-#endif //Real_E_Coin_ADDRESSHOLDER_H
+#endif //REAL_E_COIN_ADDRESSHOLDER_H

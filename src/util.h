@@ -34,9 +34,9 @@
 #include <boost/thread/exceptions.hpp>
 #include <boost/thread/condition_variable.hpp> // for boost::thread_interrupted
 
-extern const char * const Real_E_Coin_CONF_FILENAME;
-extern const char * const Real_E_Coin_PID_FILENAME;
-extern const char * const Real_E_Coin_MASTERNODE_CONF_FILENAME;
+extern const char * const REAL_E_COIN_CONF_FILENAME;
+extern const char * const REAL_E_COIN_PID_FILENAME;
+extern const char * const REAL_E_COIN_MASTERNODE_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
 //Real_E_Coin only features

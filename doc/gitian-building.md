@@ -112,7 +112,7 @@ gpg --output ${VERSION}-win-unsigned/$NAME/real_e_coin-win-${VERSION%\.*}-build.
 Uploading Signatures
 --------------------
 Make a Pull Request (both the `.assert` and `.assert.sig` files) to the
-[gitian.sigs](https://github.com/real_e_coin-project/gitian.sigs/) repository:
+[gitian.sigs](https://github.com/Real-E-Coin/gitian.sigs/) repository:
 
 ```bash
 git checkout -b ${VERSION}-not-codesigned

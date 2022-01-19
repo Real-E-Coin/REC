@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_ZIP32_H
-#define Real_E_Coin_ZIP32_H
+#ifndef REAL_E_COIN_ZIP32_H
+#define REAL_E_COIN_ZIP32_H
 
 #include "serialize.h"
 #include "allocators.h"
@@ -138,4 +138,4 @@ typedef boost::variant<InvalidEncoding, SproutSpendingKey, SaplingExtendedSpendi
 /** Check whether a SpendingKey is not an InvalidEncoding. */
 bool IsValidSpendingKey(const libzcash::SpendingKey& zkey);
 
-#endif // Real_E_Coin_ZIP32_H
+#endif // REAL_E_COIN_ZIP32_H

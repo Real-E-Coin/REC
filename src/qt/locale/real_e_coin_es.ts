@@ -1886,9 +1886,9 @@ EN FRIO</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/real_e_coin-project/real_e_coin-project-translations</source>
+https://www.transifex.com/Real-E-Coin/REC-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/real_e_coin-project/real_e_coin-project-translations</translation>
+https://www.transifex.com/Real-E-Coin/REC-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

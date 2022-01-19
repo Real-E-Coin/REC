@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_INTERFACES_WALLET_H
-#define Real_E_Coin_INTERFACES_WALLET_H
+#ifndef REAL_E_COIN_INTERFACES_WALLET_H
+#define REAL_E_COIN_INTERFACES_WALLET_H
 
 #include <amount.h>
 #include "wallet/wallet.h"

@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_SERIALIZE_H
-#define Real_E_Coin_SERIALIZE_H
+#ifndef REAL_E_COIN_SERIALIZE_H
+#define REAL_E_COIN_SERIALIZE_H
 
 #include <algorithm>
 #include <array>
@@ -961,4 +961,4 @@ size_t GetSerializeSize(const S& s, const T& t)
     return (CSizeComputer(s.GetType(), s.GetVersion()) << t).size();
 }
 
-#endif // Real_E_Coin_SERIALIZE_H
+#endif // REAL_E_COIN_SERIALIZE_H

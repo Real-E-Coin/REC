@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_UINT512_H
-#define Real_E_Coin_UINT512_H
+#ifndef REAL_E_COIN_UINT512_H
+#define REAL_E_COIN_UINT512_H
 
 #include "arith_uint256.h"
 #include "blob_uint256.h"
@@ -40,4 +40,4 @@ inline blob_uint512 blob_uint512S(const char* str)
     return rv;
 }
 
-#endif // Real_E_Coin_UINT512_H
+#endif // REAL_E_COIN_UINT512_H

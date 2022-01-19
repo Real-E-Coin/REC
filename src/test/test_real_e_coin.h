@@ -3,11 +3,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_TEST_TEST_Real_E_Coin_H
-#define Real_E_Coin_TEST_TEST_Real_E_Coin_H
+#ifndef REAL_E_COIN_TEST_TEST_REAL_E_COIN_H
+#define REAL_E_COIN_TEST_TEST_REAL_E_COIN_H
 
 #include "fs.h"
 #include "txdb.h"
+#include "random.h"
 
 #include <boost/thread.hpp>
 

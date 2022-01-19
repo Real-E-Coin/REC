@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_CORE_NEW_GUI_Real_E_CoinGUI_H
-#define Real_E_Coin_CORE_NEW_GUI_Real_E_CoinGUI_H
+#ifndef REAL_E_COIN_CORE_NEW_GUI_Real_E_CoinGUI_H
+#define REAL_E_COIN_CORE_NEW_GUI_Real_E_CoinGUI_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/real_e_coin-config.h"
@@ -189,4 +189,4 @@ Q_SIGNALS:
 };
 
 
-#endif //Real_E_Coin_CORE_NEW_GUI_Real_E_CoinGUI_H
+#endif //REAL_E_COIN_CORE_NEW_GUI_Real_E_CoinGUI_H

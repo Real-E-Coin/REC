@@ -1,8 +1,8 @@
-Real_E_Coin version *3.1.0.1* is now available from:  <https://github.com/real_e_coin-project/real_e_coin/releases>
+Real_E_Coin version *3.1.0.1* is now available from:  <https://github.com/Real-E-Coin/REC/releases>
 
-This is a new bugfix release, specifically addressing a bug with windows OS masternode control wallets. Users upgrading to this version are encouraged to also read the detailed release notes for the previous [3.1.0](https://github.com/Real_E_Coin-Project/Real_E_Coin/releases/tag/v3.1.0) release as information will not be duplicated here.
+This is a new bugfix release, specifically addressing a bug with windows OS masternode control wallets. Users upgrading to this version are encouraged to also read the detailed release notes for the previous [3.1.0](https://github.com/Real-E-Coin/REC/releases/tag/v3.1.0) release as information will not be duplicated here.
 
-Please report bugs using the issue tracker at github: <https://github.com/real_e_coin-project/real_e_coin/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Real-E-Coin/REC/issues>
 
 How to Upgrade
 ==============
@@ -51,4 +51,4 @@ Detailed release notes follow. This overview includes changes that affect behavi
 Thanks to everyone who directly contributed to this release:
 - Fuzzbawls
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/real_e_coin-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Real-E-Coin-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

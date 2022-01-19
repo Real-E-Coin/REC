@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_KEY_IO_SAPLING_H
-#define Real_E_Coin_KEY_IO_SAPLING_H
+#ifndef REAL_E_COIN_KEY_IO_SAPLING_H
+#define REAL_E_COIN_KEY_IO_SAPLING_H
 
 #include "chainparams.h"
 #include "sapling/zip32.h"
@@ -20,4 +20,4 @@ namespace KeyIO {
     libzcash::SpendingKey DecodeSpendingKey(const std::string& str);
 }
 
-#endif //Real_E_Coin_KEY_IO_SAPLING_H
+#endif //REAL_E_COIN_KEY_IO_SAPLING_H

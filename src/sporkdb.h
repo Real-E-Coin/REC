@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_CSPORKDB_H
-#define Real_E_Coin_CSPORKDB_H
+#ifndef REAL_E_COIN_CSPORKDB_H
+#define REAL_E_COIN_CSPORKDB_H
 
 #include "fs.h"
 #include "dbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //Real_E_Coin_CSPORKDB_H
+#endif //REAL_E_COIN_CSPORKDB_H

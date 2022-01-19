@@ -12,6 +12,7 @@
 
 #include "sapling/key_io_sapling.h"
 #include "sapling/address.hpp"
+#include "utilstrencodings.h"
 
 #include <boost/algorithm/string.hpp>
 #include <boost/test/unit_test.hpp>

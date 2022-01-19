@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_SAPLINGSCRIPTPUBKEYMAN_H
-#define Real_E_Coin_SAPLINGSCRIPTPUBKEYMAN_H
+#ifndef REAL_E_COIN_SAPLINGSCRIPTPUBKEYMAN_H
+#define REAL_E_COIN_SAPLINGSCRIPTPUBKEYMAN_H
 
 #include "wallet/hdchain.h"
 #include "wallet/wallet.h"
@@ -79,4 +79,4 @@ private:
     CHDChain hdChain;
 };
 
-#endif //Real_E_Coin_SAPLINGSCRIPTPUBKEYMAN_H
+#endif //REAL_E_COIN_SAPLINGSCRIPTPUBKEYMAN_H

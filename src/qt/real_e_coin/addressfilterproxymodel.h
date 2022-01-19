@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
-#define Real_E_Coin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#ifndef REAL_E_COIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#define REAL_E_COIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
 
 #include <QSortFilterProxyModel>
 #include "addresstablemodel.h"
@@ -45,4 +45,4 @@ private:
 };
 
 
-#endif //Real_E_Coin_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#endif //REAL_E_COIN_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H

@@ -1,13 +1,13 @@
 Real_E_Coin version 3.0.2 is now available from:
 
-  <https://github.com/real_e_coin-project/real_e_coin/releases>
+  <https://github.com/Real-E-Coin/REC/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/real_e_coin-project/real_e_coin/issues>
+  <https://github.com/Real-E-Coin/REC/issues>
 
 Recommended Update
 ==============
@@ -125,4 +125,4 @@ Thanks to everyone who directly contributed to this release:
 - rejectedpromise
 - Warrows
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/real_e_coin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Real-E-Coin-translations/).

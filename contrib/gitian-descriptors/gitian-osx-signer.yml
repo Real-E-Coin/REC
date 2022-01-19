@@ -8,7 +8,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/real_e_coin-project/real_e_coin-detached-sigs.git"
+- "url": "https://github.com/Real-E-Coin/REC-detached-sigs.git"
   "dir": "signature"
 files:
 - "real_e_coin-osx-unsigned.tar.gz"

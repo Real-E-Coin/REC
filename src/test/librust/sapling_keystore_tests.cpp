@@ -10,6 +10,7 @@
 #include "sapling/util.h"
 #include <boost/test/unit_test.hpp>
 #include <univalue.h>
+#include "utilstrencodings.h"
 
 #include "data/sapling_key_components.json.h"
 

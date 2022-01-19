@@ -70,7 +70,7 @@ apps:
     plugs: [home]
 parts:
   real_e_coin-core:
-    source: https://github.com/Real_E_Coin-Project/Real_E_Coin
+    source: https://github.com/Real-E-Coin/REC
     source-type: git
     source-tag: master
     plugin: nil

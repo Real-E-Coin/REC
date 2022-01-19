@@ -6,8 +6,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_KERNEL_H
-#define Real_E_Coin_KERNEL_H
+#ifndef REAL_E_COIN_KERNEL_H
+#define REAL_E_COIN_KERNEL_H
 
 #include "main.h"
 #include "stakeinput.h"
@@ -76,4 +76,4 @@ bool CheckProofOfStake(const CBlock& block, std::string& strError, const CBlockI
  */
 bool GetStakeKernelHash(uint256& hashRet, const CBlock& block, const CBlockIndex* pindexPrev = nullptr);
 
-#endif // Real_E_Coin_KERNEL_H
+#endif // REAL_E_COIN_KERNEL_H

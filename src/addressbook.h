@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Real_E_Coin_ADDRESSBOOK_H
-#define Real_E_Coin_ADDRESSBOOK_H
+#ifndef REAL_E_COIN_ADDRESSBOOK_H
+#define REAL_E_COIN_ADDRESSBOOK_H
 
 #include <map>
 #include <string>
@@ -44,4 +44,4 @@ namespace AddressBook {
 
 }
 
-#endif //Real_E_Coin_ADDRESSBOOK_H
+#endif //REAL_E_COIN_ADDRESSBOOK_H
